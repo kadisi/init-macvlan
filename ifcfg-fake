@@ -1,15 +1,3 @@
-# init-macvlan
-
-this scripts is testd in CentOS7 , kernel 3.10.0-862
-
-# instasll
-
-install `ifup-macvlan` , `ifdown-macvlan` scripts in `/etc/sysconfig/network-scripts` 
-
-
-file `ifcfg-fake` is the configuration examples
-
-```
 #: macvlan 设备名称
 #DEVICE=fake
 
@@ -36,6 +24,5 @@ file `ifcfg-fake` is the configuration examples
 
 #: gateway
 #GATEWAY=172.20.7.254
-```
 
-you must create macvlan config in `/etc/sysconfig/network-scripts` dir like `ifcfg-fake` file
+
